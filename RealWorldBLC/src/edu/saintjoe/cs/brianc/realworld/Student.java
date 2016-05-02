@@ -5,6 +5,7 @@ public class Student {
 	private String gender;
 	private int classYr;
 	private int age;
+	private int gpa;
 	
 	
 	/* Data members above, methods below */
@@ -15,7 +16,7 @@ public class Student {
 		gender = newGender;
 		classYr = newClassYr;
 		age = newAge;
-		int gpa = newPoint;
+		gpa = newPoint;
 	}
 
 	
@@ -47,7 +48,7 @@ public class Student {
 	public int getClassYr() {
 		return classYr;
 	}
-	public void SetGpa(int gpa) {
+	public void SetGpa(int points) {
 		gpa = points;
 	}
 	public int getGpa() {
