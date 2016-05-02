@@ -10,11 +10,12 @@ public class Student {
 	/* Data members above, methods below */
 	
 	// Right now a "full data" constructor only
-	public Student(String newName, String newGender, int newClassYr, int newAge) {
+	public Student(String newName, String newGender, int newClassYr, int newAge, int newPoint) {
 		name = newName;
 		gender = newGender;
 		classYr = newClassYr;
 		age = newAge;
+		int gpa = newPoint;
 	}
 
 	
@@ -46,7 +47,12 @@ public class Student {
 	public int getClassYr() {
 		return classYr;
 	}
-	
+	public void SetGpa(int gpa) {
+		gpa = points;
+	}
+	public int getGpa() {
+		return gpa;
+	}
 	public String toString() {
 		return ("Student: " + name + " Gender: " + gender + " Class Year: " + classYr + " Age: " + age);
 	}

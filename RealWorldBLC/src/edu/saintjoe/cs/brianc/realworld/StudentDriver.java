@@ -17,6 +17,7 @@ public class StudentDriver {
 		cmp112.setStudent(nextStudent, studentCount++);
 		nextStudent = new Student("Christine Black", "F", 1, 20);
 		cmp112.setStudent(nextStudent, studentCount++);
+		nextStudent = new Student("Brianna Taylor", "F", 1, 19);
 		// Add YOURSELF!!!
 		System.out.println(cmp112.toString()); 
 
